@@ -1,0 +1,20 @@
+# BeatBlend Backend Dependencies
+# Python 3.11+ | Windows compatible | Zero madmom
+# ==================================================
+
+# Core audio analysis
+librosa>=0.10.0,<0.11.0
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<2.0.0
+soundfile>=0.12.0
+
+# Web server
+flask>=3.0.0
+werkzeug>=3.0.0
+
+# Optional: stem separation (uncomment if needed)
+# demucs>=4.0.0
+# spleeter>=2.4.0
+
+# Optional: additional beat tracking (uncomment if needed)
+# aubio>=0.4.9
